@@ -1,14 +1,20 @@
 \documentclass{eecslides}
 
-\title[modèle \emph{beamer}]{Modèle de présentation \emph{beamer}}
+\usepackage[frenchb]{babel}
+
+\title[Modèle \emph{beamer}]{Modèle de présentation \emph{beamer}}
 \subtitle{Le style ``Rimouski''}
 \author[Tim \& Steve]{Timothée Poisot \and Steve Vissault}
-\institute{UQAR -- \emph{Theoretical Ecosystem Ecology}}
+\institute[Chaire de recherche EEC]{UQAR -- \emph{Theoretical Ecosystem Ecology}}
 \date{\today} % date
 
 \begin{document}
 
-	\frame[plain]{\titlepage}
+	\begin{frame}[plain]
+		\titlepage
+	\end{frame}
+
+	\section{Introduction}
 
 	\begin{frame}{Titre de la diapositive}
 	    
@@ -29,6 +35,26 @@
 
 		$$\frac{dN_i}{dt} = r_iN_i\sum_j\alert{\alpha}_{ji}N_j$$
 
+	\end{frame}
+
+	\section{Méthodes}
+
+	\begin{frame}[plain]
+		Cette frame est \emph{vide}, en utilisant l'argument optionnel \texttt{plain}.
+	\end{frame}
+
+	\begin{frame}[allowframebreaks]{Frame multiple}
+		Cette frame est coupée en plusieurs parties.
+
+		\framebreak
+
+		Par exemple, ça, c'est la deuxième partie.
+	\end{frame}
+
+	\section{Discussion}
+
+	\begin{frame}[t]{Frame centrée en haut}
+	    Cette frame est alignée par le haut. Ça peut servir, sans doute.	
 	\end{frame}
 
 \end{document}

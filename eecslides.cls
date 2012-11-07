@@ -6,6 +6,8 @@
 \RequirePackage[utf8]{inputenc} % encodage UTF-8
 \RequirePackage[OT1]{fontenc} % encodage de la police de caracteres
 
+\RequirePackage[absolute,overlay]{textpos}
+
 \RequirePackage[charter]{mathdesign}
 \RequirePackage{berasans}
 
