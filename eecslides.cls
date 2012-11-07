@@ -9,4 +9,4 @@
 \RequirePackage[charter]{mathdesign}
 \RequirePackage{berasans}
 
-\usetheme{Pittsburgh}
+\usetheme{Rimouski}
