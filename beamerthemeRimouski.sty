@@ -1,9 +1,23 @@
 \mode<presentation>
 
+%%%%% USE DEFAULT AS THE OUTER THEME
 \useoutertheme{default}
-\useinnertheme{rectangles}
 
+%%%%% REMOVE THE NAV BAR
 \beamertemplatenavigationsymbolsempty
+
+%%%%% CHOOSE SYMBOLS
+\setbeamertemplate{itemize item}[circle]
+\setbeamertemplate{itemize subitem}[circle]
+\setbeamertemplate{itemize subsubitem}[circle]
+
+%%%%% DEFINE FONTS AND FONTS SIZES
+\setbeamerfont{title}{size=\Large,series=\bfseries\sffamily,parent=structure}
+\setbeamerfont{frametitle}{size=\large,series=\mdseries\sffamily,parent=structure}
+\setbeamerfont{subtitle}{size=\normalsize, shape=\itshape, parent=title}
+\setbeamerfont{author}{size=\small, series=\bfseries}
+\setbeamerfont{date}{size=\tiny, series=\bfseries}
+\setbeamerfont{structure}{series=\bfseries\sffamily}
 
 \mode
 <all>

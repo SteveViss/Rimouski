@@ -10,3 +10,4 @@
 \RequirePackage{berasans}
 
 \usetheme{Rimouski}
+\usecolortheme{Rimouski}
