@@ -10,6 +10,7 @@
 
 \RequirePackage[charter]{mathdesign}
 \RequirePackage{berasans}
+\RequirePackage[scaled]{beramono}
 
 \usetheme{Rimouski}
 \usecolortheme{Rimouski}

@@ -26,8 +26,8 @@
 
 %%%%% FOOTER LINE
 \setbeamertemplate{footline}{%
-	\begin{beamercolorbox}[sep=.2em,wd=\paperwidth,leftskip=0.5cm,rightskip=0.5cm]{footlinecolor}
-		\insertshortauthor~-- \insertshorttitle \hskip 1em \insertsectionnavigationhorizontal{}{}{} \hfill \insertframenumber
+	\begin{beamercolorbox}[sep=0.2em,wd=\paperwidth,leftskip=0.5cm,rightskip=0.5cm]{footlinecolor}
+		\insertshortauthor~-- \insertshorttitle \hskip 1em \insertsectionnavigationhorizontal{0px}{}{} \hfill \insertframenumber
 	\end{beamercolorbox}%
 }
 
@@ -88,7 +88,7 @@
 }
 
 \pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg}{bg}
-\pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg-alt}{bg-alt}
+%\pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg-alt}{bg-alt}
 
 \setbeamertemplate{background canvas}{%
     \ifnum\c@framenumber=1%
