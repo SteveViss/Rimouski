@@ -1,0 +1,7 @@
+\begin{tikzpicture}
+	\begin{axis}[ybar stacked, cycle list name = hS3]
+		\addplot coordinates {(0,1) (1,1) (2,3) (3,2) (4,1.5)}; 
+		\addplot coordinates {(0,1) (1,1) (2,3) (3,2) (4,1.5)}; 
+		\addplot coordinates {(0,1) (1,1) (2,3) (3,2) (4,1.5)};
+	\end{axis}
+\end{tikzpicture}
