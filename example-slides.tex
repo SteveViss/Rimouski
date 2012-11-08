@@ -25,8 +25,8 @@
 	
 	\end{frame}
 
-	\begin{frame}{Titre de la diapositive}{Sous-titre}
-		Une diapo avec un sous-titre
+	\begin{frame}{Une diapo avec des maths}{Sous-titre}
+		Une diapo avec un sous-titre.
 
 		\begin{enumerate}
 			\item Premier élément
@@ -51,10 +51,41 @@
 		Par exemple, ça, c'est la deuxième partie.
 	\end{frame}
 
-	\section{Discussion}
-
 	\begin{frame}[t]{Frame centrée en haut}
 	    Cette frame est alignée par le haut. Ça peut servir, sans doute.	
+	\end{frame}
+
+	\section{Graphiques}
+
+	\begin{frame}{Avec un graphique pgfplots}{On utilise le cycle \emph{Set3}}
+		\begin{center}
+			\input{plot.tikz}
+		\end{center}	
+	\end{frame}
+
+	\begin{frame}{Avec une surface}{On utilise la \emph{colormap} \emph{RdGy}}
+		\begin{center}
+			\input{splot.tikz}
+		\end{center}	
+	\end{frame}
+
+	\begin{frame}[allowframebreaks]{Graphiques}{Le package \texttt{pgfcb}}
+	    
+		En plus des fichiers pour modifier le style des slides, le \emph{package} \texttt{pgfcb} met à disposition plusieurs palettes de couleur pour les graphiques. Ces palettes sont celles de \emph{ColorBrewer} 2, visibles à \url{http://colorbrewer2.org/}.
+
+		\framebreak
+
+		Chaque palette exise en trois versions: pour les \emph{dotplots}, les histogrammes et autres versions remplies, et les surfaces. Le nom de la palette est préfixé par \texttt{p}, \texttt{h}, et \texttt{s}.
+
+		\framebreak
+
+		Les palettes disponibles sont les suivantes:
+
+		\framebreak
+
+		Chaque \alert{couleur} peut être appelée indépendamment, en utilisant son numéro dans la palette. Par exemple, cette phrase {\color{S34} utilise la couleur \texttt{S34}}, soit la quatrième valeur de la palette \texttt{S3}. 
+
+
 	\end{frame}
 
 \end{document}

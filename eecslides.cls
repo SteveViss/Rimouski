@@ -13,3 +13,5 @@
 
 \usetheme{Rimouski}
 \usecolortheme{Rimouski}
+
+\RequirePackage{pgfcb}

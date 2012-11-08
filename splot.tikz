@@ -1,0 +1,12 @@
+\begin{tikzpicture}
+	\begin{axis}[
+		view/h=40,colormap name=sRdGy
+		]
+		\addplot3[
+			surf,
+			shader=flat,
+			samples=30,
+			domain=-3:3,
+			y domain=-2:2] {sin(deg(x+y^2))}; 
+	\end{axis}
+\end{tikzpicture}
