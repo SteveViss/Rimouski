@@ -139,3 +139,61 @@
 		color=(RdGy11);
 	}
 }
+
+%%%%% Spectral
+
+\definecolor{Spectral1}{RGB}{158, 1, 66}
+\definecolor{Spectral2}{RGB}{213, 62, 79}
+\definecolor{Spectral3}{RGB}{244, 109, 67}
+\definecolor{Spectral4}{RGB}{253, 174, 91}
+\definecolor{Spectral5}{RGB}{254, 224, 139}
+\definecolor{Spectral6}{RGB}{255, 255, 191}
+\definecolor{Spectral7}{RGB}{230, 245, 152}
+\definecolor{Spectral8}{RGB}{171, 221, 164}
+\definecolor{Spectral9}{RGB}{102, 194, 165}
+\definecolor{Spectral10}{RGB}{50, 136, 189}
+\definecolor{Spectral11}{RGB}{94, 79, 162}
+
+\pgfplotscreateplotcyclelist{pSpectral}{
+	{Spectral1!50!black,every mark/.append style={fill=Spectral1},mark=*},
+	{Spectral2!50!black,every mark/.append style={fill=Spectral2},mark=*},
+	{Spectral3!50!black,every mark/.append style={fill=Spectral3},mark=*},
+	{Spectral4!50!black,every mark/.append style={fill=Spectral4},mark=*},
+	{Spectral5!50!black,every mark/.append style={fill=Spectral5},mark=*},
+	{Spectral6!50!black,every mark/.append style={fill=Spectral6},mark=*},
+	{Spectral7!50!black,every mark/.append style={fill=Spectral7},mark=*},
+	{Spectral8!50!black,every mark/.append style={fill=Spectral8},mark=*},
+	{Spectral9!50!black,every mark/.append style={fill=Spectral9},mark=*},
+	{Spectral10!50!black,every mark/.append style={fill=Spectral10},mark=*},
+	{Spectral11!50!black,every mark/.append style={fill=Spectral11},mark=*}
+}
+
+\pgfplotscreateplotcyclelist{hSpectral}{
+	{Spectral1!50!black,fill=Spectral1},
+	{Spectral2!50!black,fill=Spectral2},
+	{Spectral3!50!black,fill=Spectral3},
+	{Spectral4!50!black,fill=Spectral4},
+	{Spectral5!50!black,fill=Spectral5},
+	{Spectral6!50!black,fill=Spectral6},
+	{Spectral7!50!black,fill=Spectral7},
+	{Spectral8!50!black,fill=Spectral8},
+	{Spectral9!50!black,fill=Spectral9},
+	{Spectral10!50!black,fill=Spectral10},
+	{Spectral11!50!black,fill=Spectral11}
+}
+
+\pgfplotsset{
+	colormap={sSpectral}{
+		color=(Spectral1); 
+		color=(Spectral2);
+		color=(Spectral3);
+		color=(Spectral4);
+		color=(Spectral5);
+		color=(Spectral6);
+		color=(Spectral7);
+		color=(Spectral8);
+		color=(Spectral9);
+		color=(Spectral10);
+		color=(Spectral11);
+	}
+}

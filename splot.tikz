@@ -1,6 +1,6 @@
 \begin{tikzpicture}
 	\begin{axis}[
-		view/h=40,colormap name=sRdGy
+		view/h=40,colormap name=sSpectral
 		]
 		\addplot3[
 			surf,
