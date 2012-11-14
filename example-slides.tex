@@ -1,6 +1,7 @@
 \documentclass{eecslides}
 
 \usepackage[frenchb]{babel}
+\usepackage{lipsum}
 
 \title[Modèle \emph{beamer}]{Modèle de présentation \emph{beamer}}
 \subtitle{Le style ``Rimouski''}
@@ -38,7 +39,7 @@
 
 	\end{frame}
 
-	\section{Méthodes}
+	\section{Structure}
 
 	\begin{frame}[plain]
 		Cette frame est \emph{vide}, en utilisant l'argument optionnel \texttt{plain}.
@@ -55,6 +56,22 @@
 	\begin{frame}[t]{Frame centrée en haut}
 	    Cette frame est alignée par le haut. Ça peut servir, sans doute.	
 	\end{frame}
+
+	\section{Mise en forme}
+
+	\begin{frame}{Mise en valeur du contenu}{On utilise l'environnement \emph{Block}}
+		\begin{center}
+			\begin{block}{\emph{Block} standard}
+				\small Eiusdem multi ex provinciae cuius apud est vel regale apud atrocium congregati apparatum cuius usibus.
+			\end{block}
+			\begin{alertblock}{\emph{Block} alerte}
+				\small Eiusdem multi ex provinciae cuius apud est vel regale apud atrocium congregati apparatum cuius usibus.
+			\end{alertblock}
+			\begin{exampleblock}{\emph{Block} exemple}
+				\small Eiusdem multi ex provinciae cuius apud est vel regale apud atrocium congregati apparatum cuius usibus.
+			\end{exampleblock}
+		\end{center}	
+	\end{frame}	
 
 	\section{Graphiques}
 
@@ -92,7 +109,8 @@
 
 		Chaque \alert{couleur} peut être appelée indépendamment, en utilisant son numéro dans la palette. Par exemple, cette phrase {\color{S34} utilise la couleur \texttt{S34}}, soit la quatrième valeur de la palette \texttt{S3}. 
 
-
 	\end{frame}
+
+
 
 \end{document}
