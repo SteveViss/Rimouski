@@ -1,5 +1,7 @@
 \documentclass{eecslides}
 
+%\usecolortheme{RimouskiDark}
+
 \usepackage[frenchb]{babel}
 
 \title[Modèle \emph{beamer}]{Modèle de présentation \emph{beamer}}
@@ -13,6 +15,10 @@
 
 	\begin{frame}[plain]
 		\titlepage
+	\end{frame}
+
+	\begin{frame}[plain]
+		\tableofcontents
 	\end{frame}
 
 	\section{Introduction}
@@ -35,6 +41,19 @@
 		\end{enumerate}
 
 		$$\frac{dN_i}{dt} = r_iN_i\sum_j\alert{\alpha}_{ji}N_j$$
+
+	\end{frame}
+
+	\begin{frame}{Colonnes}
+		
+		\begin{columns}
+			\begin{column}[t]{0.5\textwidth}
+				Colonne 1
+			\end{column}
+			\begin{column}[t]{0.5\textwidth}
+				Colonne 2
+			\end{column}
+		\end{columns}
 
 	\end{frame}
 

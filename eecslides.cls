@@ -8,9 +8,14 @@
 
 \RequirePackage[absolute,overlay]{textpos}
 
-\RequirePackage[charter]{mathdesign}
-\RequirePackage{berasans}
-\RequirePackage[scaled]{beramono}
+%\RequirePackage[charter]{mathdesign}
+%\RequirePackage{berasans}
+%\RequirePackage[scaled]{beramono}
+
+\RequirePackage[default,scale=0.9]{droidserif}
+\RequirePackage[defaultsans,scale=0.9]{droidsans}
+\RequirePackage[defaultmono,scale=0.9]{droidmono}
+\RequirePackage[LGRgreek]{mathastext}
 
 \usetheme{Rimouski}
 \usecolortheme{Rimouski}
