@@ -16,3 +16,11 @@ To compile, use `pdflatex example-slides.tex`
 ## What this theme does
 
 ...
+
+## TODO 
+
+- Logo insertion on the title page or acknowledgment slide
+- Templates for figures insertion
+- Citation example with Natbib?
+- Create others BG
+- Option: Transfer the plan bar on the upper zone
